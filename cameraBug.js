@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with custom camera controls.  The issue is that even when the user taps outside the preview area, the camera continues to capture photos. This overrides any intended logic to prevent unwanted captures based on tap location. The problem is particularly noticeable when you have custom buttons overlayed on top of the camera preview.
